@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "TAPI BOONG HEHEHE";
+        title.innerHTML = "ILoveYou HEHE";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
